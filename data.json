@@ -1,0 +1,5 @@
+[
+  { "name": "phone",  "slug": "phone",  "unique": true,  "expectedStatus": 201, "productId": 1,      "expectedProductStatus": 200 },
+  { "name": "phone",  "slug": "phone",  "unique": false, "expectedStatus": 422, "productId": 999999, "expectedProductStatus": 404 },
+  { "name": "laptop", "slug": "laptop", "unique": true,  "expectedStatus": 201, "productId": 2,      "expectedProductStatus": 200 }
+]
