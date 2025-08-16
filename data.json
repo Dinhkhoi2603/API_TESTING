@@ -75,7 +75,7 @@
     "unique": true,
     "expectedStatus": 201,
     "productId": "abc",
-    "expectedProductStatus": 400
+    "expectedProductStatus": 404
   },
   {
     "name": "mouse",
