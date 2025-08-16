@@ -34,14 +34,14 @@
   {
     "slug": "no-name",
     "unique": true,
-    "expectedStatus": 400,
+    "expectedStatus": 422,
     "productId": 1,
     "expectedProductStatus": 200
   },
   {
     "name": "no-slug",
     "unique": true,
-    "expectedStatus": 400,
+    "expectedStatus": 422,
     "productId": 1,
     "expectedProductStatus": 200
   },
